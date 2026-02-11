@@ -1,9 +1,15 @@
-{"update":{"update link":"YUhSMGNITTZMeTl3YkdGNUxtZHZiMmRzWlM1amIyMHZjM1J2Y21VdllYQndjeTlrWlhSaGFXeHpQ
-MmxrUFdOdmJTNTBiM0oxYmk1bwpaWEp2","version code":"TVM0eA==","whats new":"4oCiIEFkZGVkIDMwLURheSBTZXR0aW5ncyBQcm90ZWN0aW9uIHN5c3RlbVxu4oCiIEFkdWx0IENv
-bnRlbnQgQmxvY2tpbmcgaW1wcm92ZWQgZm9yIGJldHRlciBzYWZldHlcbuKAoiBOZXcgQm90IEFz
-c2lzdGFudCBhZGRlZCB0byBndWlkZSB1c2Vyc1xu4oCiIFNldHRpbmdzIHBlcmZvcm1hbmNlIG9w
-dGltaXplZCAoZmFzdGVyICYgc21vb3RoZXIpXG7igKIgSW1wcm92ZWQgYWNjZXNzaWJpbGl0eSAm
-IGRldmljZSBhZG1pbiBoYW5kbGluZ1xu4oCiIFVJIHJlc3BvbnNpdmVuZXNzIGFuZCBzdGFiaWxp
-dHkgZW5oYW5jZWRcbuKAoiBGaXhlZCBtaW5vciBidWdzIGFuZCBjcmFzaGVzXG7igKIgQmV0dGVy
-IG5vdGlmaWNhdGlvbiBoYW5kbGluZ1xu4oCiIE92ZXJhbGwgcGVyZm9ybWFuY2UgaW1wcm92ZW1l
-bnRz"}}
+{
+  "update_link": "https://play.google.com/store/apps/details?id=com.torun.hero",
+  "version_code": "1.1",
+  "whats_new": [
+    "Added 30-Day Settings Protection system",
+    "Adult Content Blocking improved for better safety",
+    "New Bot Assistant added to guide users",
+    "Settings performance optimized (faster & smoother)",
+    "Improved accessibility & device admin handling",
+    "UI responsiveness and stability enhanced",
+    "Fixed minor bugs and crashes",
+    "Better notification handling",
+    "Overall performance improvements"
+  ]
+}
