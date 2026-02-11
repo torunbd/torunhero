@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy – Torun Hero</title>
+  <!-- Font & Icons (clean, medium-like) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    /* ===== LIGHT THEME — MEDIUM INSPIRED ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #faf9f8;  /* soft warm white */
+      color: #1e1e1e;
+      line-height: 1.7;
+      font-size: 16px;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* header — minimal, border bottom */
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #eaeaea;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(12px);
+      background: rgba(255,255,255,0.96);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 70px;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-icon {
+      background: #0a66c2;  /* calm blue, no heavy gradient */
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 18px;
+    }
+
+    .logo-text {
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -0.3px;
+      color: #0a66c2;
+    }
+
+    .logo-sub {
+      font-size: 12px;
+      color: #6b6b6b;
+      font-weight: 400;
+      margin-top: 2px;
+    }
+
+    .back-home {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: transparent;
+      border: 1px solid #d0d0d0;
+      padding: 8px 16px;
+      border-radius: 40px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #3a3a3a;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+
+    .back-home:hover {
+      background-color: #f2f2f2;
+      border-color: #a0a0a0;
+    }
+
+    .back-home i {
+      font-size: 12px;
+    }
+
+    /* hero — subtle, simple */
+    .policy-hero {
+      padding: 60px 0 20px;
+    }
+
+    .hero-tag {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      background-color: #e7f0ff;
+      color: #0a66c2;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 50px;
+      letter-spacing: -0.2px;
+    }
+
+    .update-date {
+      color: #6b6b6b;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    h1 {
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: -1.2px;
+      line-height: 1.2;
+      color: #000;
+      margin-bottom: 16px;
+    }
+
+    .hero-description {
+      font-size: 18px;
+      color: #3e3e3e;
+      max-width: 700px;
+      border-left: 4px solid #0a66c2;
+      padding-left: 20px;
+      margin: 24px 0 16px;
+    }
+
+    .meta-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 20px;
+      color: #4f4f4f;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .meta-grid i {
+      color: #0a66c2;
+      margin-right: 6px;
+    }
+
+    /* content sections – clean card-like */
+    .privacy-content {
+      padding: 40px 0 80px;
+    }
+
+    .section-card {
+      background: #ffffff;
+      border: 1px solid #efefef;
+      border-radius: 20px;
+      padding: 32px 36px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s;
+    }
+
+    .section-card:hover {
+      box-shadow: 0 12px 24px -8px rgba(0,0,0,0.06);
+      border-color: #e0e0e0;
+    }
+
+    .section-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #edf2fa;
+      color: #0a66c2;
+      font-weight: 700;
+      width: 32px;
+      height: 32px;
+      border-radius: 10px;
+      font-size: 16px;
+      margin-right: 12px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .section-title h2 {
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #1a1a1a;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 28px 0 12px;
+      color: #1e1e1e;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: #222;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: #3b3b3b;
+    }
+
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 24px 0 16px;
+    }
+
+    .feature-list li {
+      padding: 8px 0 8px 28px;
+      position: relative;
+      color: #3a3a3a;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .feature-list li:last-child {
+      border-bottom: none;
+    }
+
+    .feature-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      color: #0a66c2;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    /* subtle info boxes — light gray */
+    .info-box {
+      background-color: #f7f9fc;
+      border-left: 4px solid #0a66c2;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 28px 0;
+    }
+
+    .info-box h4 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: #0a66c2;
+    }
+
+    .permission-note {
+      background-color: #fef7e7;
+      border-left: 4px solid #e68a2e;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 24px 0;
+    }
+
+    .ad-section {
+      background: #f2f7fe;
+      border-radius: 16px;
+      padding: 24px;
+      margin: 24px 0;
+      border: 1px solid #d9e7f7;
+    }
+
+    .effectiveness {
+      background: #fffbeb;
+      border-left: 4px solid #f5b042;
+      padding: 24px;
+      border-radius: 12px;
+    }
+
+    .data-flow {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 32px 0;
+    }
+
+    .flow-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 120px;
+      text-align: center;
+    }
+
+    .flow-icon {
+      background: #eaeff5;
+      width: 56px;
+      height: 56px;
+      border-radius: 28px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0a66c2;
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .arrow {
+      color: #a0a0a0;
+      font-size: 20px;
+      font-weight: 300;
+    }
+
+    .local-highlight {
+      background: #ecf7ed;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #c8e6c9;
+    }
+
+    .contact-module {
+      background: #ffffff;
+      border: 1px solid #eaeaea;
+      border-radius: 20px;
+      padding: 32px;
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex: 1 1 200px;
+    }
+
+    .contact-icon {
+      background: #edf2fa;
+      width: 48px;
+      height: 48px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0a66c2;
+      font-size: 18px;
+    }
+
+    .summary-box {
+      background: #f6f9fc;
+      border-radius: 24px;
+      padding: 32px;
+      margin: 48px 0 24px;
+      border: 1px solid #e3ecf3;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #e6e6e6;
+      margin: 48px 0 24px;
+    }
+
+    /* footer – minimal */
+    footer {
+      background: #ffffff;
+      border-top: 1px solid #ececec;
+      padding: 48px 0 40px;
+      margin-top: 40px;
+      color: #5e5e5e;
+      font-size: 14px;
+    }
+
+    .footer-inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .footer-col p {
+      color: #6f6f6f;
+      margin-bottom: 16px;
+    }
+
+    .footer-links {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      text-decoration: none;
+      color: #4a4a4a;
+    }
+
+    .footer-links a:hover {
+      color: #0a66c2;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .social {
+      background: #f2f2f2;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3a3a3a;
+      transition: 0.1s;
+    }
+
+    .social:hover {
+      background: #0a66c2;
+      color: white;
+    }
+
+    .copyright {
+      border-top: 1px solid #efefef;
+      margin-top: 40px;
+      padding-top: 28px;
+      text-align: center;
+      color: #7b7b7b;
+    }
+
+    /* back to top – subtle */
+    .top-link {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: white;
+      border: 1px solid #dbdbdb;
+      width: 44px;
+      height: 44px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #3a3a3a;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+      transition: 0.15s;
+      text-decoration: none;
+    }
+
+    .top-link:hover {
+      background: #f5f5f5;
+      border-color: #b0b0b0;
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 32px; }
+      .section-card { padding: 24px; }
+      .navbar { height: 60px; }
+      .back-home span { display: none; }
+      .data-flow { flex-direction: column; gap: 12px; }
+      .arrow { transform: rotate(90deg); margin: 8px; }
+    }
+
+    /* utility */
+    .text-small { font-size: 14px; color: #6f6f6f; }
+    i { color: #5f5f5f; }
+    .no-border { border-bottom: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <div class="logo-area">
+        <div class="logo-icon"><i class="fas fa-shield-halbed"></i></div>
+        <div>
+          <div class="logo-text">Torun Hero</div>
+          <div class="logo-sub">digital wellness</div>
+        </div>
+      </div>
+      <a href="#" class="back-home"><i class="fas fa-arrow-left"></i><span>Home</span></a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (light, minimal) -->
+    <div class="container policy-hero">
+      <div class="hero-tag">
+        <span class="badge"><i class="far fa-file-alt" style="margin-right: 6px;"></i>Updated · Jan 2026</span>
+        <span class="update-date"><i class="far fa-calendar-alt"></i> 25 January 2026</span>
+      </div>
+      <h1>Privacy Policy</h1>
+      <div class="hero-description">
+        Complete transparency about our privacy practices, ads & coin system — all your data stays on your device.
+      </div>
+      <div class="meta-grid">
+        <span><i class="fas fa-mobile-alt"></i> Ages 12–25</span>
+        <span><i class="fas fa-ad"></i> Optional rewarded ads</span>
+        <span><i class="fas fa-coins"></i> Coin features</span>
+        <span><i class="fas fa-database"></i> 100% local storage</span>
+      </div>
+    </div>
+
+    <!-- PRIVACY CONTENT – CLEAN CARDS -->
+    <div class="container privacy-content">
+      
+      <!-- 1. INTRODUCTION -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">1</span>
+          <h2>Introduction</h2>
+        </div>
+        <p><strong>Torun Hero</strong> is built to protect youth (12–25) from adult content and digital distractions. This policy explains how we handle your information—with <strong>privacy first, locally stored, zero tracking</strong>.</p>
+        <p>Our mission: a safer digital environment, 100% free, and absolute control in your hands. No registration, no cloud uploads, and no hidden data collection.</p>
+        <div class="info-box" style="margin-top: 20px;">
+          <h4><i class="fas fa-star" style="color: #0a66c2;"></i> 2026 update includes</h4>
+          <ul class="feature-list" style="margin-bottom: 0;">
+            <li><strong>Ad-supported model</strong> – optional rewarded ads → earn coins</li>
+            <li><strong>Coin system</strong> – unlock premium features for free</li>
+            <li><strong>No forced data</strong> – you control everything</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- 2. USER-PROVIDED INFO (OPTIONAL) -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">2</span>
+          <h2>User‑Provided Information</h2>
+        </div>
+        <p style="background: #eaf0f9; padding: 16px 20px; border-radius: 12px;"><strong><i class="fas fa-edit"></i> All personal data is optional.</strong> We never require it. Only if you use specific features:</p>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 16px; margin: 28px 0 8px;">
+          <div style="flex:1; min-width: 200px; background: #fafafa; padding: 20px; border-radius: 16px;">
+            <h4 style="margin-top: 0;"><i class="fas fa-palette" style="color: #0a66c2;"></i> Theme</h4>
+            <p style="margin-bottom: 0; font-size: 15px;"><strong>Data:</strong> light/dark preference <br><strong>Stored:</strong> local only</p>
+          </div>
+          <div style="flex:1; min-width: 200px; background: #fafafa; padding: 20px; border-radius: 16px;">
+            <h4 style="margin-top: 0;"><i class="fas fa-key" style="color: #0a66c2;"></i> Forgot PIN</h4>
+            <p style="margin-bottom: 0; font-size: 15px;"><strong>Data:</strong> recovery hint (your input) <br><strong>Stored:</strong> encrypted, local</p>
+          </div>
+          <div style="flex:1; min-width: 200px; background: #fafafa; padding: 20px; border-radius: 16px;">
+            <h4 style="margin-top: 0;"><i class="fas fa-trophy" style="color: #0a66c2;"></i> 100‑day streak</h4>
+            <p style="margin-bottom: 0; font-size: 15px;"><strong>Data:</strong> name & city (manual) <br><strong>Stored:</strong> local only</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. ADS & COIN SYSTEM (clean, not flashy) -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">3</span>
+          <h2>Advertising & Coin Rewards</h2>
+        </div>
+        <div class="ad-section">
+          <h4><i class="fas fa-ad" style="color: #0a66c2;"></i> <i class="fas fa-coins" style="color: #f2a900;"></i> Fair ad model</h4>
+          <ul class="feature-list">
+            <li><strong>Rewarded ads:</strong> watch only if you want → earn coins</li>
+            <li><strong>No forced/interruptive ads:</strong> always optional</li>
+            <li><strong>Generic ads:</strong> no behavioral targeting from our side</li>
+            <li><strong>Coin unlock:</strong> premium protection without paying</li>
+          </ul>
+        </div>
+        <div class="permission-note" style="margin-top: 16px;">
+          <h4 style="color: #b45b0f;"><i class="fas fa-shield-alt"></i> Ad network data</h4>
+          <p style="margin-bottom: 4px;">Our partner Google AdMob may collect device info, Advertising ID, IP, ad interactions — <strong>this is separate from Torun Hero</strong>. You can opt out of personalised ads in device settings.</p>
+        </div>
+      </div>
+
+      <!-- 4. EFFECTIVENESS DISCLAIMER -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">4</span>
+          <h2>Effectiveness & device variation</h2>
+        </div>
+        <div class="effectiveness">
+          <h4 style="color: #b85b14;"><i class="fas fa-info-circle"></i> No 100% guarantee</h4>
+          <p><strong>Effectiveness varies by manufacturer, Android version, custom ROMs, and accessibility restrictions.</strong> We're transparent: we cannot guarantee full protection on every device due to these technical limits.</p>
+          <p style="margin-bottom: 0;">Factors: phone brand, Android version, system modifications, permission restrictions.</p>
+        </div>
+      </div>
+
+      <!-- 5. LOCAL STORAGE ONLY — NO SERVER -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">5</span>
+          <h2>Local storage only</h2>
+        </div>
+        <div class="local-highlight">
+          <h4 style="color: #1e7a44;"><i class="fas fa-database"></i> Your personal data never leaves your phone</h4>
+          <p><strong>No cloud, no sync, no API, no analytics.</strong> All optional information stays on your device. We don't see it, we don't collect it.</p>
+        </div>
+        <!-- minimal data flow -->
+        <div class="data-flow">
+          <div class="flow-step"><div class="flow-icon"><i class="fas fa-user-edit"></i></div><span style="font-size: 13px;">You enter data</span></div>
+          <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+          <div class="flow-step"><div class="flow-icon"><i class="fas fa-microchip"></i></div><span style="font-size: 13px;">Local storage</span></div>
+          <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+          <div class="flow-step"><div class="flow-icon"><i class="fas fa-ban"></i></div><span style="font-size: 13px;">No transmission</span></div>
+          <span class="arrow"><i class="fas fa-arrow-right"></i></span>
+          <div class="flow-step"><div class="flow-icon"><i class="fas fa-lock"></i></div><span style="font-size: 13px;">Complete privacy</span></div>
+        </div>
+        <ul class="feature-list">
+          <li>✅ No automatic collection – everything is manually entered by you</li>
+          <li>✅ No registration, no mandatory fields</li>
+          <li>✅ You control what you share – uninstall = permanent deletion</li>
+        </ul>
+      </div>
+
+      <!-- 6. NO DATA SHARING -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">6</span>
+          <h2>No personal data sharing</h2>
+        </div>
+        <div style="background: #fafafa; padding: 20px; border-radius: 16px;">
+          <p><strong>We do not share, sell, rent, or trade any personal information.</strong> Since it never leaves your device, there is literally nothing to share.</p>
+          <ul class="feature-list" style="margin-bottom: 0;">
+            <li>No sharing with advertisers</li>
+            <li>No analytics or social media sharing</li>
+            <li>No government/legal sharing — we have no access</li>
+          </ul>
+        </div>
+        <p class="text-small" style="margin-top: 20px;"><i>Ad networks operate independently – see section 3.</i></p>
+      </div>
+
+      <!-- 7. KEY PROTECTIVE FEATURES -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">7</span>
+          <h2>Protective features</h2>
+        </div>
+        <ul class="feature-list" style="columns: 1; column-gap: 30px;">
+          <li>Blocks adult searches (Chrome, Google, etc.)</li>
+          <li>Social media blocker (FB, IG, Messenger, Reels)</li>
+          <li>Inappropriate keyword detection → redirect home</li>
+          <li>App lock, device admin, accessibility-based blocking</li>
+          <li>Focus mode (timed sessions)</li>
+          <li>Multilingual keyword filtering</li>
+          <li>Coin‑based premium unlocking</li>
+        </ul>
+      </div>
+
+      <!-- 8. CHILDREN'S PRIVACY (COPPA/GDPR) -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">8</span>
+          <h2>Children's privacy</h2>
+        </div>
+        <p>Torun Hero is designed for ages <strong>12–25</strong>. We comply with COPPA, GDPR, and international child protection standards.</p>
+        <div class="info-box">
+          <h4><i class="fas fa-child"></i> For users under 13</h4>
+          <p style="margin-bottom: 8px;">Parental guidance recommended. All data is optional and local; parents can supervise optional features (themes, PIN hint, streak name).</p>
+        </div>
+      </div>
+
+      <!-- 9. DATA SECURITY + USER RIGHTS -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">9</span>
+          <h2>Security & your rights</h2>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 24px;">
+          <div style="flex:1; min-width: 200px;">
+            <h4 style="color: #0a66c2;"><i class="fas fa-user-check"></i> Your rights</h4>
+            <ul class="feature-list" style="margin-bottom: 0;">
+              <li>Access: view data in app</li>
+              <li>Delete: clear data / uninstall</li>
+              <li>Modify: change anytime</li>
+              <li>Opt‑out: use without optional data</li>
+            </ul>
+          </div>
+          <div style="flex:1; min-width: 200px;">
+            <h4 style="color: #0a66c2;"><i class="fas fa-shield-virus"></i> Security</h4>
+            <ul class="feature-list" style="margin-bottom: 0;">
+              <li>Local encryption (PIN hint)</li>
+              <li>No SD card storage</li>
+              <li>App‑lock protected</li>
+            </ul>
+          </div>
+        </div>
+        <p style="margin-top: 24px;"><strong>Data deletion:</strong> uninstall the app → everything is erased immediately.</p>
+      </div>
+
+      <!-- 10. POLICY UPDATES -->
+      <div class="section-card">
+        <div class="section-title">
+          <span class="section-number">10</span>
+          <h2>Policy updates</h2>
+        </div>
+        <p>We may update this policy to reflect legal or feature changes. "Last updated" date is always revised. Since we don't collect contact info, we cannot send individual notices — major updates appear in Play Store description.</p>
+        <p class="text-small" style="background: #f3f5f7; padding: 16px; border-radius: 12px;">We never retroactively change how we handle your data.</p>
+      </div>
+
+      <!-- 11. CONTACT -->
+      <div class="section-card" id="contact">
+        <div class="section-title">
+          <span class="section-number">11</span>
+          <h2>Contact us</h2>
+        </div>
+        <div class="contact-module">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div><span style="font-size: 13px; color: #6b6b6b;">Email</span><br><strong>torunherobd@gmail.com</strong></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-pin"></i></div>
+            <div><span style="font-size: 13px; color: #6b6b6b;">Address</span><br>Narsinghpur, Nabinagar, Brahmanbaria, Bangladesh</div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div><span style="font-size: 13px; color: #6b6b6b;">Response</span><br>within 24–48h</div>
+          </div>
+        </div>
+        <p style="margin-top: 16px; font-size: 14px;">Include "Torun Hero Privacy" in subject line for faster reply.</p>
+      </div>
+
+      <!-- SUMMARY BOX — clean brief -->
+      <div class="summary-box">
+        <h3 style="margin-top: 0; font-weight: 700; display: flex; gap: 10px;"><i class="fas fa-clipboard-check" style="color: #0a66c2;"></i> Privacy policy — at a glance</h3>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px;">
+          <span><span style="color: #0a66c2;">✓</span> Optional data only</span>
+          <span><span style="color: #0a66c2;">✓</span> 100% local storage</span>
+          <span><span style="color: #0a66c2;">✓</span> No server, no sharing</span>
+          <span><span style="color: #0a66c2;">✓</span> Ads optional, rewarded</span>
+          <span><span style="color: #0a66c2;">✓</span> Coin unlock system</span>
+          <span><span style="color: #0a66c2;">✓</span> Effectiveness varies</span>
+          <span><span style="color: #0a66c2;">✓</span> COPPA + GDPR</span>
+          <span><span style="color: #0a66c2;">✓</span> Full user control</span>
+        </div>
+        <p style="margin-top: 24px; margin-bottom: 0; border-top: 1px solid #e0e7ed; padding-top: 20px; font-size: 15px;"><strong>Last updated:</strong> January 25, 2026 · Torun Hero v2.1</p>
+      </div>
+    </div> <!-- end container -->
+  </main>
+
+  <!-- FOOTER (light, minimal) -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-col">
+          <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 16px;">
+            <div style="background: #0a66c2; width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: white;"><i class="fas fa-shield-halbed"></i></div>
+            <span style="font-weight: 700; color: #0a66c2;">Torun Hero</span>
+          </div>
+          <p style="max-width: 280px;">Digital wellness & protection. Your data stays yours.</p>
+          <div class="social-icons">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 style="margin-bottom: 20px; color: #1e1e1e;">Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Cookie policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 style="margin-bottom: 20px; color: #1e1e1e;">App info</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-box"></i> com.torun.hero</li>
+            <li><i class="fas fa-android"></i> Android 7.0+</li>
+            <li><i class="fas fa-star"></i> 4.5 ★</li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>© 2026 Torun Hero. All rights reserved.  •  Privacy policy updated with TORUN HERO STUDIO</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- back to top subtle -->
+  <a href="#" class="top-link" id="goTop"><i class="fas fa-arrow-up"></i></a>
+
+  <script>
+    // smooth scroll to top
+    document.getElementById('goTop').addEventListener('click', function(e){
+      e.preventDefault();
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+    // minimal back-home (dummy)
+    document.querySelector('.back-home').addEventListener('click', function(e){
+      e.preventDefault();
+      alert('Return to home (demo) — your main index.html would be here');
+    });
+  </script>
+</body>
+</html>
