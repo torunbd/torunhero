@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy - Torun Kids Launcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 25px;
+        }
+        h1, h2 {
+            color: #38bdf8;
+        }
+        p {
+            line-height: 1.7;
+        }
+        .card {
+            background: #020617;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.4);
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #94a3b8;
+            margin-top: 30px;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p><b>Effective Date:</b> 2026</p>
+
+    <div class="card">
+        <p>
+            Torun Kids Launcher is developed by <b>Torun Hero</b>.  
+            Our mission is to protect children from harmful and inappropriate online content.  
+            We respect your privacy and are committed to keeping your data safe.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>1. Data Collection</h2>
+        <p>
+            We do NOT collect any personal information.  
+            Our app does not require login, account, or cloud database.
+        </p>
+        <p>
+            All features work locally on your device.  
+            If you uninstall the app, all data will be permanently deleted.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>2. Firebase Usage</h2>
+        <p>
+            We only use Google Firebase to manage app updates and basic performance monitoring.
+            No personal or sensitive user data is collected.
+        </p>
+        <p>
+            Firebase Privacy Policy:  
+            <a href="https://policies.google.com/privacy" target="_blank">
+                https://policies.google.com/privacy
+            </a>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>3. No Subscription</h2>
+        <p>
+            Torun Kids Launcher is completely free to use.  
+            No subscription or payment is required.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>4. Accessibility Permission</h2>
+        <p>
+            Accessibility is used only to block restricted apps and system settings in Kids Mode.
+        </p>
+        <p>
+            We do NOT:
+            <ul>
+                <li>Log keystrokes</li>
+                <li>Read passwords</li>
+                <li>Track private activity</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>5. Third-Party Services</h2>
+        <p>
+            We do not use any illegal or hidden third-party SDKs.  
+            Only Google services and our own internal systems are used.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>6. Children Protection</h2>
+        <p>
+            This app is specially designed to protect children from harmful and inappropriate content.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>7. Policy Updates</h2>
+        <p>
+            We may update this Privacy Policy in the future.  
+            Any changes will be posted on this page.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>8. Contact</h2>
+        <p>
+            Developer: Torun Hero <br>
+            Email: torunhero@gmail.com <br>
+            Country: Bangladesh
+        </p>
+    </div>
+
+    <footer>
+        © 2026 Torun Hero. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
