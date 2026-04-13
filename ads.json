@@ -2,7 +2,7 @@
   "ads_enabled": true,
   "ads_banner": true,
   "ads_nativ": true,
-  "ads_interstitial": false,
+  "ads_interstitial": true,
   "ads_reward": false,
   "reward_fallback": true
 }
