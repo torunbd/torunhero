@@ -3,6 +3,6 @@
   "ads_banner": true,
   "ads_nativ": true,
   "ads_interstitial": true,
-  "ads_reward": false,
+  "ads_reward": true,
   "reward_fallback": true
 }
