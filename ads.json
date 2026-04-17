@@ -1,8 +1,8 @@
 {
-  "ads_enabled": true,
-  "ads_banner": true,
-  "ads_nativ": true,
-  "ads_interstitial": true,
-  "ads_reward": true,
+  "ads_enabled": false,
+  "ads_banner": false,
+  "ads_nativ": false,
+  "ads_interstitial": false,
+  "ads_reward": false,
   "reward_fallback": true
 }
