@@ -49,42 +49,94 @@
 
 <div class="container">
     <h1>Terms and Conditions</h1>
-    <p><b>Effective Date:</b> 2026</p>
+    <p><b>Effective Date:</b> <span id="eff-year">2026</span></p>
 
     <div class="card">
         <p>
             Welcome to <b>Torun Kids Launcher</b>, developed by <b>Torun Hero</b>. 
-            By downloading or using our application, these terms will automatically apply to you. 
-            Please read them carefully before using the app.
+            By downloading or using our application, you agree to these Terms and Conditions. 
+            Please read this page to understand how our app works and your responsibilities as a user.
         </p>
     </div>
 
     <div class="card">
-        <h2>1. Acceptance of Terms</h2>
+        <h2>1. Our Purpose & Mission</h2>
         <p>
-            By accessing and using Torun Kids Launcher, you (as a parent or legal guardian) agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use the application.
+            Our core mission is to protect children from the dark side of the internet. 
+            Torun Kids Launcher is designed to provide a completely safe, clean, and controlled digital space. 
+            We aim to shield young minds from inappropriate content, accidental clicks on harmful links, and unhealthy screen addiction, helping them develop positive device habits.
         </p>
     </div>
 
     <div class="card">
-        <h2>2. Parental Responsibility</h2>
+        <h2>2. Parental Responsibility & Control</h2>
         <p>
-            Torun Kids Launcher is a tool designed to assist parents in managing their children's device usage and restricting inappropriate content. 
+            This app is a tool created to empower parents and legal guardians. As a parent, you have full control over setup, app restrictions, and feature management.
         </p>
         <p>
-            While the app provides strong blocking and parental control features, it is not a complete substitute for parental supervision. Torun Hero is not liable for any content accessed outside the app's control configurations.
+            While Torun Kids Launcher offers advanced protection features, it is intended to work alongside your personal supervision to ensure the best safety for your child.
         </p>
     </div>
 
     <div class="card">
-        <h2>3. App Permissions & Device Usage</h2>
+        <h2>3. Local Permissions</h2>
         <p>
-            To perform its core functions (such as blocking restricted apps, securing system settings, and maintaining Kids Mode), the app requires specific system permissions, including the <b>Accessibility Service Permission</b>. 
+            To effectively block restricted apps and secure system settings, the app requires specific device permissions, such as the <b>Accessibility Service Permission</b>. 
         </p>
         <p>
-            These permissions are used strictly for local device management on your device and do not monitor, log, or transmit any user activity externally.
+            These permissions are used solely to run the child-lock and filtering features directly on your smartphone. Since we do not use internet-based tracking, these permissions pose zero risk to your privacy.
         </p>
     </div>
+
+    <div class="card">
+        <h2>4. Zero Data & Offline Operation</h2>
+        <p>
+            We strongly believe in privacy. All your configurations, app limits, and tailored configurations are kept offline inside your phone's storage. 
+            If you reset your device data or uninstall the application, all your saved settings will be removed permanently.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>5. Free for Everyone</h2>
+        <p>
+            Torun Kids Launcher is and will remain free to use. There are no paid features, hidden charges, or active subscriptions. Anyone who wants a safer digital environment for their children can use this tool fully.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>6. Service Availability & Updates</h2>
+        <p>
+            We are continuously working to improve the launcher to block new digital threats. 
+            We provide the service on an "as-is" basis and may release regular updates to enhance performance, fix technical bugs, and improve overall security.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>7. Contact Us</h2>
+        <p>
+            If you have any suggestions, feedback, or questions about our app's terms and goals, please connect with us:
+        </p>
+        <p>
+            Developer: Torun Hero <br>
+            Email: <a href="mailto:torunhero@gmail.com">torunhero@gmail.com</a> <br>
+            Country: Bangladesh
+        </p>
+    </div>
+
+    <footer>
+        © <span id="current-year">2026</span> Torun Hero. All rights reserved.
+    </footer>
+</div>
+
+<script>
+    // অটোমেটিক বছর আপডেট করার লজিক
+    const currentYear = new Date().getFullYear();
+    document.getElementById('current-year').textContent = currentYear;
+    document.getElementById('eff-year').textContent = currentYear;
+</script>
+
+</body>
+</html>
 
     <div class="card">
         <h2>4. Data and Local Storage</h2>
