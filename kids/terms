@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Terms and Conditions - Torun Kids Launcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e5e7eb;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 25px;
+        }
+        h1, h2 {
+            color: #38bdf8;
+        }
+        p, ul {
+            line-height: 1.7;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .card {
+            background: #020617;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.4);
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #94a3b8;
+            margin-top: 30px;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Terms and Conditions</h1>
+    <p><b>Effective Date:</b> 2026</p>
+
+    <div class="card">
+        <p>
+            Welcome to <b>Torun Kids Launcher</b>, developed by <b>Torun Hero</b>. 
+            By downloading or using our application, these terms will automatically apply to you. 
+            Please read them carefully before using the app.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+            By accessing and using Torun Kids Launcher, you (as a parent or legal guardian) agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, you must not use the application.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>2. Parental Responsibility</h2>
+        <p>
+            Torun Kids Launcher is a tool designed to assist parents in managing their children's device usage and restricting inappropriate content. 
+        </p>
+        <p>
+            While the app provides strong blocking and parental control features, it is not a complete substitute for parental supervision. Torun Hero is not liable for any content accessed outside the app's control configurations.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>3. App Permissions & Device Usage</h2>
+        <p>
+            To perform its core functions (such as blocking restricted apps, securing system settings, and maintaining Kids Mode), the app requires specific system permissions, including the <b>Accessibility Service Permission</b>. 
+        </p>
+        <p>
+            These permissions are used strictly for local device management on your device and do not monitor, log, or transmit any user activity externally.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>4. Data and Local Storage</h2>
+        <p>
+            As per our "Zero Data Collection" policy, all your configurations, blocked app lists, and settings are saved completely offline on your local device. 
+            We do not maintain cloud backups of your settings. Uninstalling the app or clearing its data will permanently erase all configuration settings.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>5. Free Access & Fair Use</h2>
+        <p>
+            Torun Kids Launcher is completely free to use, without any hidden subscriptions, paywalls, or premium fees. You are granted a non-exclusive, non-transferable right to use the app for personal, non-commercial purposes on your personal devices.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>6. Prohibited Actions</h2>
+        <p>
+            You agree not to attempt to:
+            <ul>
+                <li>Modify, decompile, reverse engineer, or extract the source code of the application.</li>
+                <li>Use the app for any illegal or unauthorized purposes.</li>
+                <li>Bypass or attempt to exploit flaws in the app's security systems to disable parental controls without proper authorization.</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>7. Limitation of Liability</h2>
+        <p>
+            The application is provided "as is" without any warranties of any kind. Torun Hero will not be held liable for any indirect, incidental, or consequential damages resulting from the use, inability to use, or any technical glitches within the app.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>8. Changes to These Terms</h2>
+        <p>
+            We may update our Terms and Conditions from time to time to reflect app updates or legal compliance. You are advised to review this page periodically for any changes.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>9. Contact Us</h2>
+        <p>
+            If you have any questions or suggestions regarding our Terms and Conditions, feel free to contact us:
+        </p>
+        <p>
+            Developer: Torun Hero <br>
+            Email: <a href="mailto:torunhero@gmail.com">torunhero@gmail.com</a> <br>
+            Country: Bangladesh
+        </p>
+    </div>
+
+    <footer>
+        © 2026 Torun Hero. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
