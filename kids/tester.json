@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Torun Hero",
+    "Tick": "bt1",
+    "profile": "https://i.imgur.com/1bX5QH6.jpg",
+    "about": "Protecting children from harmful content."
+  },
+  {
+    "Name": "Anime World",
+    "Tick": "bt2",
+    "profile": "https://i.imgur.com/8RKXAIV.jpg",
+    "about": "Japanese anime updates and wallpapers."
+  },
+  {
+    "Name": "Dark Space",
+    "Tick": "bt3",
+    "profile": "https://i.imgur.com/Qv7Yk0R.jpg",
+    "about": "Space themed launcher and wallpapers."
+  },
+  {
+    "Name": "Nature Village",
+    "Tick": "",
+    "profile": "https://i.imgur.com/K4q9K4D.jpg",
+    "about": "Beautiful green village photography."
+  },
+  {
+    "Name": "Study Room",
+    "Tick": "bt1",
+    "profile": "https://i.imgur.com/4AiXzf8.jpg",
+    "about": "Focus and productivity environment."
+  },
+  {
+    "Name": "Samurai Art",
+    "Tick": "bt2",
+    "profile": "https://i.imgur.com/uIgDDDd.jpg",
+    "about": "Traditional Japanese samurai designs."
+  }
+]
