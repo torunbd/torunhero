@@ -13,16 +13,16 @@
     "about": "Protecting children from harmful content."
   },
   {
-    "Name": "Anime World",
-    "Tick": "bt2",
-    "category": "entertainment",
+    "Name": "Mohammad Hossain Shanti",
+    "Tick": "bt1",
+    "category": "Helpers",
     "postion": "2",
     "country": "japan",
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "false",
-    "profile": "https://i.imgur.com/2DhmtJ4.png",
+    "status": "true",
+    "profile": "https://i.imgur.com/j5zODKv.jpeg",
     "about": "Japanese anime updates and wallpapers."
   },
   {
@@ -75,20 +75,20 @@
     "website": "",
     "status": "true",
     "profile": "https://torunbd.github.io/torunhero/kids/image/Messenger_creation_52EB1FC5-DA93-4307-B3B5-90EF482C1382.jpeg",
-    "about": "Traditional Japanese samurai designs."
+    "about": "Dedicated tester helping improve app performance and user experience."
   },
   {
-    "Name": "Md Alamin",
+    "Name": "Urban Jungle",
     "Tick": "bt1",
-    "category": "tester",
+    "category": "lifestyle",
     "postion": "7",
-    "country": "Bangladesh",
+    "country": "india",
     "telegram": "",
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://torunbd.github.io/torunhero/kids/image/1000013524-01_PerfectlyClear.jpg",
-    "about": "City life meets green nature."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Active tester supporting feature testing and stability checks."
   },
   {
     "Name": "Tech Future",
@@ -100,8 +100,8 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/8UuZK4m.png",
-    "about": "AI and future innovations."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Testing new updates and providing valuable feedback for improvements."
   },
   {
     "Name": "Retro Games",
@@ -113,8 +113,8 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/y9QxL2p.png",
-    "about": "Classic 80s and 90s games."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Reliable tester ensuring smooth gameplay and app usability."
   },
   {
     "Name": "Ocean Life",
@@ -126,8 +126,8 @@
     "facebook": "",
     "website": "",
     "status": "false",
-    "profile": "https://i.imgur.com/Mz2QxW7.png",
-    "about": "Underwater marine adventure."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Helping identify bugs and improve overall application quality."
   },
   {
     "Name": "Medieval Castle",
@@ -139,8 +139,8 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/VsP8cBn.png",
-    "about": "Knights and castles of medieval Europe."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Passionate tester contributing to better performance and stability."
   },
   {
     "Name": "Fitness Hub",
@@ -152,8 +152,8 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/N7kQe1L.png",
-    "about": "Workout and wellness motivation."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Supporting app testing with detailed feedback and issue reporting."
   },
   {
     "Name": "Fantasy Art",
@@ -165,8 +165,8 @@
     "facebook": "",
     "website": "",
     "status": "false",
-    "profile": "https://i.imgur.com/zX7mK9Q.png",
-    "about": "Dragons, elves and magical worlds."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Dedicated to testing features and improving user satisfaction."
   },
   {
     "Name": "Travel Diaries",
@@ -178,8 +178,8 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/Qm4Lp8T.png",
-    "about": "Exploring hidden gems worldwide."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Helping maintain app quality through continuous testing support."
   },
   {
     "Name": "Cyber Security",
@@ -191,7 +191,7 @@
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/Wp6Jr3D.png",
-    "about": "Protecting data from threats."
+    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "about": "Tester focused on security, stability, and smooth user experience."
   }
 ]
