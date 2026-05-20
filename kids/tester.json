@@ -21,7 +21,7 @@
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "true",
+    "status": "false",
     "profile": "https://i.imgur.com/2DhmtJ4.png",
     "about": "Japanese anime updates and wallpapers."
   },
@@ -34,7 +34,7 @@
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "true",
+    "status": "false",
     "profile": "https://i.imgur.com/XkqQZ8K.png",
     "about": "Space themed launcher and wallpapers."
   },
@@ -60,21 +60,21 @@
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "true",
+    "status": "false",
     "profile": "https://i.imgur.com/Y7rQv6X.png",
     "about": "Focus and productivity environment."
   },
   {
-    "Name": "Samurai Art",
+    "Name": "Md Aftab",
     "Tick": "bt2",
-    "category": "art",
+    "category": "tester",
     "postion": "6",
-    "country": "japan",
+    "country": "Bangladesh",
     "telegram": "",
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://i.imgur.com/k7t5T3m.png",
+    "profile": "https://torunbd.github.io/torunhero/kids/image/Messenger_creation_52EB1FC5-DA93-4307-B3B5-90EF482C1382.jpeg",
     "about": "Traditional Japanese samurai designs."
   },
   {
