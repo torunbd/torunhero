@@ -99,7 +99,7 @@
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "true",
+    "status": "false",
     "profile": "https://torunbd.github.io/torunhero/kids/image/",
     "about": "Testing new updates and providing valuable feedback for improvements."
   },
@@ -143,16 +143,16 @@
     "about": "Passionate tester contributing to better performance and stability."
   },
   {
-    "Name": "Fitness Hub",
-    "Tick": "bt2",
+    "Name": "Suman Mishra",
+    "Tick": "false",
     "category": "beta testers",
     "postion": "12",
-    "country": "canada",
+    "country": "india",
     "telegram": "",
     "facebook": "",
     "website": "",
     "status": "true",
-    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "profile": "https://i.imgur.com/iCVCr5d.jpeg",
     "about": "Supporting app testing with detailed feedback and issue reporting."
   },
   {
