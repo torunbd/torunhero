@@ -26,15 +26,15 @@
     "about": "তরুণদের মেধা বিকাশের একনিষ্ঠ পৃষ্ঠপোষক এবং 'TorunHero' প্রজেক্টের সম্মানিত মেন্টর। যিনি সবসময় সমাজ পরিবর্তনের লড়াইতে তরুণ প্রজন্মের পাশে থেকে সাহস ও প্রেরণা জুগিয়ে যাচ্ছেন।"
   },
   {
-    "Name": "Dark Space",
-    "Tick": "bt3",
+    "Name": "Md Rakib Hassan",
+    "Tick": "bt2",
     "category": "science",
     "postion": "3",
     "country": "usa",
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "false",
+    "status": "tue",
     "profile": "https://i.imgur.com/XkqQZ8K.png",
     "about": "Space themed launcher and wallpapers."
   },
@@ -182,16 +182,16 @@
     "about": "Helping maintain app quality through continuous testing support."
   },
   {
-    "Name": "Cyber Security",
-    "Tick": "bt2",
+    "Name": "Md Rakib Hossain",
+    "Tick": "bt",
     "category": "beta testers",
     "postion": "15",
     "country": "germany",
     "telegram": "",
     "facebook": "",
     "website": "",
-    "status": "tre",
-    "profile": "https://torunbd.github.io/torunhero/kids/image/",
+    "status": "true",
+    "profile": "https://i.imgur.com/gk21H7i.jpeg",
     "about": "Tester focused on security, stability, and smooth user experience."
   }
 ]
