@@ -206,5 +206,18 @@
     "status": "true",
     "profile": "https://i.imgur.com/XXOoMdh.jpeg",
     "about": "Tester focused on security, stability, and smooth user experience."
-  }  
+  },  
+  {
+    "Name": "SOBUJ",
+    "Tick": "bt",
+    "category": "beta testers",
+    "postion": "15",
+    "country": "Bangladesh",
+    "telegram": "",
+    "facebook": "",
+    "website": "",
+    "status": "true",
+    "profile": "https://i.imgur.com/Zy0l98O.jpeg",
+    "about": "Tester focused on security, stability, and smooth user experience."
+  }    
 ]
