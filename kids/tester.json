@@ -118,7 +118,7 @@
   },
   {
     "Name": "ᴍᴀꜱᴜᴍ ꜱʜᴇɪᴋʜ",
-    "Tick": "false",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "10",
     "country": "Bangladesh",
@@ -131,7 +131,7 @@
   },
   {
     "Name": "Kamal Boss",
-    "Tick": "false",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "11",
     "country": "uk",
@@ -144,7 +144,7 @@
   },
   {
     "Name": "Suman Mishra",
-    "Tick": "false",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "12",
     "country": "india",
@@ -157,7 +157,7 @@
   },
   {
     "Name": "Md. Abu Saeed",
-    "Tick": "bt",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "13",
     "country": "Bangladesh",
@@ -183,7 +183,7 @@
   },
   {
     "Name": "Md Rakib Hossain",
-    "Tick": "bt",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "15",
     "country": "germany",
@@ -196,7 +196,7 @@
   },
   {
     "Name": "MD Robiul Islam Nahiyan",
-    "Tick": "bt",
+    "Tick": "bt2",
     "category": "beta testers",
     "postion": "15",
     "country": "Bangladesh",
